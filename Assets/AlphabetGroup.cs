@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 /// <summary>
 /// Class yang mendyimpan Nama, Huruf pertama, dan Suara pada
-/// object di minigame Animal Ajaran .
+/// object di Alphabet Animal.
 /// </summary>
 [System.Serializable]
 public class AlphabetGroup

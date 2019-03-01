@@ -317,7 +317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -29, y: -124}
   m_SizeDelta: {x: 267, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &175709019
@@ -467,7 +467,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -279, y: -25}
+  m_AnchoredPosition: {x: -308, y: -149}
   m_SizeDelta: {x: 153, y: 104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &504648065
@@ -588,7 +588,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18, y: 174}
+  m_AnchoredPosition: {x: -11, y: 50}
   m_SizeDelta: {x: 341, y: 77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &789215567
@@ -806,183 +806,183 @@ MonoBehaviour:
     objectAlias: Aa
     textColor: {r: 0, g: 0, b: 0, a: 0}
     objectImage: {fileID: 21300000, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
+    narator: {fileID: 8300000, guid: c63ced83f0450274b94497cb6a640ab7, type: 3}
     background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
   - objectName: Beaver
     objectAlias: Bb
     textColor: {r: 0, g: 0, b: 0, a: 0}
     objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
+    narator: {fileID: 8300000, guid: 503da8d512b5dae458191b54b9f62236, type: 3}
     background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Cat
+    objectAlias: Cc
     textColor: {r: 0, g: 0, b: 0, a: 0}
     objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    narator: {fileID: 8300000, guid: 7da52e4df2d0d824bbdf229d531852f4, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Donkey
+    objectAlias: Dd
     textColor: {r: 0, g: 0, b: 0, a: 0}
     objectImage: {fileID: 21300006, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 22f6636c3b7c53c499a30182fd664852, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
+    animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
+  - objectName: Elephant
+    objectAlias: Ee
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    objectImage: {fileID: 21300008, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 7fad99d87ab47a347bb94461f049ae16, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
+    animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
+  - objectName: Frog
+    objectAlias: Ff
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    objectImage: {fileID: 21300010, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 76574f3dbeb449242a36fa6c78925064, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
+    animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
+  - objectName: Giraffe
+    objectAlias: Gg
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    objectImage: {fileID: 21300012, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: f9a174b41e562464c9199b1497b72e56, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
+    animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
+  - objectName: Horse
+    objectAlias: Hh
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    objectImage: {fileID: 21300014, guid: c90f67542eee69949abe3847f325cfba, type: 3}
     narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
     background: {fileID: 0}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Iguana
+    objectAlias: Ii
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300016, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: d43816d7c407023489254614cb22a889, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: JellyFish
+    objectAlias: Jj
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 28a04466066098348ad569693c254667, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Kangaroo
+    objectAlias: Kk
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300020, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: b483c2382597ebc4f957934c1ca22ce9, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Lion
+    objectAlias: Ll
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300022, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 9c6910391ce83294db0efe2bb4059a6f, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Mouse
+    objectAlias: Mm
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300024, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: a24fa4a23640e3049845fb36a9ee5882, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Numbut
+    objectAlias: Nn
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300026, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 3fa47d45231d1814ca98df48edce5fae, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Octopus
+    objectAlias: Oo
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300028, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 90057cd586520f942bd04d4fd69a0ed0, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Panda
+    objectAlias: Pp
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300030, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 5699d03f392ac074c95a360dad100e20, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Quetzal
+    objectAlias: Qq
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300032, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 551fe6fa927ac2142823b6fdb8917aba, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Raccoon
+    objectAlias: Rr
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300034, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: e8212255b0ed8b94684824ee7fec6145, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Sheep
+    objectAlias: Ss
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300036, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: ab3af4cf345d6014b82a20c78ff40d6a, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Turtle
+    objectAlias: Tt
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300038, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 691f30fa97e9dcf4b9572a3d43d665bd, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Unicorn
+    objectAlias: Uu
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300040, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 083b7ccfcb11b314fba0b1c0d8159d37, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Viper
+    objectAlias: Vv
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300042, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: b37218605ceb84b4aa7330e3f5801843, type: 3}
+    background: {fileID: 21300042, guid: c90f67542eee69949abe3847f325cfba, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Whale
+    objectAlias: Ww
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300044, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 9851986dea1814945b9d02ba7c8b1247, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: X Ray Fish
+    objectAlias: Xx
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300046, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: ff820bfbac059744586bcc5192a70a2a, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Yak
+    objectAlias: Yy
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300048, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: 7aa6938e45a6a2b49b4616d57c79e891, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
+  - objectName: Zebra
+    objectAlias: Zz
     textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
-    animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
-    animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
-    animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
-    animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: Beaver
-    objectAlias: Bb
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-    background: {fileID: 0}
+    objectImage: {fileID: 21300050, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: a08e63730fd17314b92fdfb00374cc6f, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
 --- !u!95 &920267971
 Animator:
@@ -1148,7 +1148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 296, y: -25}
+  m_AnchoredPosition: {x: 267, y: -149}
   m_SizeDelta: {x: 153, y: 104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &950801289
@@ -1270,7 +1270,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18, y: -197}
+  m_AnchoredPosition: {x: -11, y: -321}
   m_SizeDelta: {x: 153, y: 44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1177953056
