@@ -811,6 +811,13 @@ MonoBehaviour:
     narator: {fileID: 8300000, guid: c63ced83f0450274b94497cb6a640ab7, type: 3}
     background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
+  - objectName: Aligator
+    objectAlias: Aa
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    objectImage: {fileID: 21300000, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    narator: {fileID: 8300000, guid: c63ced83f0450274b94497cb6a640ab7, type: 3}
+    background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
+    animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
   - objectName: Beaver
     objectAlias: Bb
     textColor: {r: 0, g: 0, b: 0, a: 0}
@@ -965,11 +972,11 @@ MonoBehaviour:
     narator: {fileID: 8300000, guid: 9851986dea1814945b9d02ba7c8b1247, type: 3}
     background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
-  - objectName: X Ray Fish
+  - objectName: X-Ray Fish
     objectAlias: Xx
     textColor: {r: 0, g: 0, b: 0, a: 0}
     objectImage: {fileID: 21300046, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-    narator: {fileID: 8300000, guid: ff820bfbac059744586bcc5192a70a2a, type: 3}
+    narator: {fileID: 8300000, guid: 7aa6938e45a6a2b49b4616d57c79e891, type: 3}
     background: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
     animalSound: {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
   - objectName: Yak
