@@ -13,7 +13,7 @@ public class AnimalListing : GameParent
     public Button tapForSound, prevButton, nextButton;
     public AudioSource animalSource;
     public Text animalName;
-      public Text animalPaging;
+    public Text animalPaging;
     public List<Sprite> backgroundList = new List<Sprite>();
     public List<AnimalGroup> animalGroupList = new List<AnimalGroup>();
 
@@ -34,7 +34,7 @@ public class AnimalListing : GameParent
     /// Method ini dipanggil pada setiap user menekan tombol Prev atau Next
     protected override void InitAlphabets()
     {
-        Debug.Log(GameParent.alphabetIndex);
+        animalPaging.text= GameParent.alphabetIndex.ToString() +"/25";
         animalName.text = animalGroupList[alphabetIndex].objectName;
         animalImage.sprite = animalGroupList[alphabetIndex].objectImage;
         background.sprite = animalGroupList[alphabetIndex].background;
