@@ -34,7 +34,7 @@ public class AnimalListing : GameParent
     /// Method ini dipanggil pada setiap user menekan tombol Prev atau Next
     protected override void InitAlphabets()
     {
-        animalPaging.text= GameParent.alphabetIndex.ToString() +"/25";
+        animalPaging.text= GameParent.alphabetIndex.ToString() +"/26";
         animalName.text = animalGroupList[alphabetIndex].objectName;
         animalImage.sprite = animalGroupList[alphabetIndex].objectImage;
         background.sprite = animalGroupList[alphabetIndex].background;

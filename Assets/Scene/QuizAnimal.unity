@@ -381,7 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb3ae52c67e3ec42b7b88b918b0e9a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrongImage: {fileID: 0}
+  wrongImage: {fileID: 11411422, guid: 2ea16798218ba6743b7e27021a77bcd4, type: 2}
 --- !u!114 &302474163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -616,7 +616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb3ae52c67e3ec42b7b88b918b0e9a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrongImage: {fileID: 0}
+  wrongImage: {fileID: 11411422, guid: 2ea16798218ba6743b7e27021a77bcd4, type: 2}
 --- !u!114 &594133655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1201,7 +1201,7 @@ MonoBehaviour:
   alphabetText: {fileID: 2027200754}
   letterImage: {fileID: 186175809}
   openingWords: {fileID: 8300000, guid: aee11a5d01a9fbe499580907597472cd, type: 3}
-  tryAgainWord: {fileID: 0}
+  tryAgainWord: {fileID: 8300000, guid: 48a9993dcafac8145b2e8815b65f539f, type: 3}
   letterA: {fileID: 8300000, guid: 139e7c0f41d257c4187f1e414b4e2424, type: 3}
   congratWords:
   - {fileID: 8300000, guid: 7f0575f35272c4e4c91a3ba487b8cf54, type: 3}
@@ -1221,364 +1221,150 @@ MonoBehaviour:
       alphabet: B
       objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
       correctAnswer: {fileID: 8300000, guid: 503da8d512b5dae458191b54b9f62236, type: 3}
+  - alphabet: C
+    correctWords:
     - objectName: Cat
       alphabet: C
       objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
       correctAnswer: {fileID: 8300000, guid: 7da52e4df2d0d824bbdf229d531852f4, type: 3}
-    - objectName: JellyFish
+  - alphabet: D
+    correctWords:
+    - objectName: Donkey
+      alphabet: D
+      objectImage: {fileID: 21300006, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: 22f6636c3b7c53c499a30182fd664852, type: 3}
+  - alphabet: E
+    correctWords:
+    - objectName: Elephant
+      alphabet: E
+      objectImage: {fileID: 21300008, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: 7fad99d87ab47a347bb94461f049ae16, type: 3}
+  - alphabet: F
+    correctWords:
+    - objectName: Frog
+      alphabet: F
+      objectImage: {fileID: 21300010, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: 76574f3dbeb449242a36fa6c78925064, type: 3}
+  - alphabet: G
+    correctWords:
+    - objectName: Giraffe
+      alphabet: G
+      objectImage: {fileID: 21300012, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: f9a174b41e562464c9199b1497b72e56, type: 3}
+  - alphabet: H
+    correctWords:
+    - objectName: Horse
+      alphabet: H
+      objectImage: {fileID: 21300014, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: c46ad4d1fd138dc4b8ecc1437d38f251, type: 3}
+  - alphabet: I
+    correctWords:
+    - objectName: Iguana
+      alphabet: I
+      objectImage: {fileID: 21300016, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: d43816d7c407023489254614cb22a889, type: 3}
+  - alphabet: J
+    correctWords:
+    - objectName: Jelly Fish
       alphabet: J
       objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
       correctAnswer: {fileID: 8300000, guid: 28a04466066098348ad569693c254667, type: 3}
-  - alphabet: C
+  - alphabet: K
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: D
+    - objectName: Kangaroo
+      alphabet: K
+      objectImage: {fileID: 21300020, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: b483c2382597ebc4f957934c1ca22ce9, type: 3}
+  - alphabet: L
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: Lion
+      alphabet: L
+      objectImage: {fileID: 21300022, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: 9c6910391ce83294db0efe2bb4059a6f, type: 3}
+  - alphabet: M
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: Mouse
+      alphabet: M
+      objectImage: {fileID: 21300024, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: a24fa4a23640e3049845fb36a9ee5882, type: 3}
+  - alphabet: N
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: Numbut
+      alphabet: N
+      objectImage: {fileID: 21300026, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: 3fa47d45231d1814ca98df48edce5fae, type: 3}
+  - alphabet: O
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: Octopus
+      alphabet: O
+      objectImage: {fileID: 21300028, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: 90057cd586520f942bd04d4fd69a0ed0, type: 3}
+  - alphabet: P
     correctWords:
-    - objectName: Beaver
-      alphabet: B
+    - objectName: Panda
+      alphabet: P
       objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+      correctAnswer: {fileID: 8300000, guid: 5699d03f392ac074c95a360dad100e20, type: 3}
+  - alphabet: O
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: O
+      alphabet: Octopus
+      objectImage: {fileID: 21300028, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: 90057cd586520f942bd04d4fd69a0ed0, type: 3}
+  - alphabet: R
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: Racoon
+      alphabet: R
+      objectImage: {fileID: 21300034, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: e8212255b0ed8b94684824ee7fec6145, type: 3}
+  - alphabet: S
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: Sheep
+      alphabet: S
+      objectImage: {fileID: 21300036, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: ab3af4cf345d6014b82a20c78ff40d6a, type: 3}
+  - alphabet: T
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: Turtle
+      alphabet: T
+      objectImage: {fileID: 21300038, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: 691f30fa97e9dcf4b9572a3d43d665bd, type: 3}
+  - alphabet: U
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: Unicorn
+      alphabet: U
+      objectImage: {fileID: 21300040, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: 083b7ccfcb11b314fba0b1c0d8159d37, type: 3}
+  - alphabet: V
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: Viper
+      alphabet: V
+      objectImage: {fileID: 21300042, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: b37218605ceb84b4aa7330e3f5801843, type: 3}
+  - alphabet: W
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: Whale
+      alphabet: W
+      objectImage: {fileID: 21300044, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: 9851986dea1814945b9d02ba7c8b1247, type: 3}
+  - alphabet: X
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: X-Ray Fish
+      alphabet: X
+      objectImage: {fileID: 21300046, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: ff820bfbac059744586bcc5192a70a2a, type: 3}
+  - alphabet: Y
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
+    - objectName: Yak
+      alphabet: Y
+      objectImage: {fileID: 21300048, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: 7aa6938e45a6a2b49b4616d57c79e891, type: 3}
+  - alphabet: Z
     correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
-    correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
-    correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
-    correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
-    correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
-    correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
-    correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
-    correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
-    correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-  - alphabet: B
-    correctWords:
-    - objectName: Beaver
-      alphabet: B
-      objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: Cat
-      alphabet: C
-      objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
-    - objectName: JellyFish
-      alphabet: J
-      objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
-      correctAnswer: {fileID: 0}
+    - objectName: Zebra
+      alphabet: Z
+      objectImage: {fileID: 21300050, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+      correctAnswer: {fileID: 8300000, guid: a08e63730fd17314b92fdfb00374cc6f, type: 3}
 --- !u!225 &1334415770
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1803,7 +1589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb3ae52c67e3ec42b7b88b918b0e9a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrongImage: {fileID: 0}
+  wrongImage: {fileID: 11411422, guid: 2ea16798218ba6743b7e27021a77bcd4, type: 2}
 --- !u!114 &1335323193
 MonoBehaviour:
   m_ObjectHideFlags: 0

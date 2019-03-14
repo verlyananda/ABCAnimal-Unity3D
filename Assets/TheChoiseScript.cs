@@ -3,19 +3,33 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-public class TheChoiseScript : GameParentQuiz {
+/// <summary>
+/// Class yang meng-handle minigame Find the Answer
+/// </summary>
+public class TheChoiseScript : GameParentQuiz
+{
     public Text objectName, alphabetText;
     public Image letterImage;
     public AudioClip openingWords, tryAgainWord, letterA;
-	public List<AudioClip> congratWords = new List<AudioClip>();
-	public List<CorrectWords> correctWordList = new List<CorrectWords>();
- 	List<ObjectWord> objectList = new List<ObjectWord>();
+
+    // atribute yang menyimpan beberapa sound yang akan dimainkan ketika
+    // user berhasil menjawab pertanyaan dengan benar.
+    public List<AudioClip> congratWords = new List<AudioClip>();
+
+    // atribute yang digunakan untuk menyimpan dan meng-sortir 
+    // object pada setiap huruf
+    public List<CorrectWords> correctWordList = new List<CorrectWords>();
+
+    // atribute yang menyimpan SEMUA object yang akan digunakan dan dirandom pada minigame
+    // Find the Answer
+    List<ObjectWord> objectList = new List<ObjectWord>();
     AudioSource source;
     Animator anim;
 
-	    void Start()
+    void Start()
     {
-        
+        // nilai dari setiap index pada correctWords diinisialisasi pada component unity
+        // setelah itu setiap objectWord yang disimpan pada correctWords dicopy ke objectList
         foreach (CorrectWords correct in correctWordList)
             foreach (ObjectWord obj in correct.correctWords)
                 objectList.Add(obj);
@@ -26,22 +40,28 @@ public class TheChoiseScript : GameParentQuiz {
         playSound(openingWords);
         Invoke("speakLetterA", openingWords.length+0.05f);
         InitAlphabets();
-	}
-		  public override void OnPrevButtonClick()
-   		 {
+    }
+
+    /// method yang dipanggil ketika button Prev ditekan
+    public override void OnPrevButtonClick()
+    {
             anim.SetTrigger("Next Quiz");
         base.OnPrevButtonClick();
             alphabetText.text = alphabet[alphabetIndex].ToString();
-    	}
+    }
 
-		public override void OnNextButtonClick()
-   		 {
+    /// method yang dipanggil ketika button Next ditekan
+    public override void OnNextButtonClick()
+    {
             anim.SetTrigger("Next Quiz");
         base.OnNextButtonClick();
             alphabetText.text = alphabet[alphabetIndex].ToString();
-    	}
+    }
 
-		  protected override void InitAlphabets()
+    /// Method yang digunakan untuk meng-generate setiap object yang nantinya dikirim 
+    /// ke Class LetterTileBehaviour untuk mendefinisikan gambar, huruf, dan suara yang dimainkan ketika benar
+    /// pada setiap Tile pilihan.
+    protected override void InitAlphabets()
     {
         CorrectWords correctTile = correctWordList[alphabetIndex];
         List<ObjectWord> problemTile = new List<ObjectWord>();
@@ -130,5 +150,4 @@ public class TheChoiseScript : GameParentQuiz {
 
         anim.SetTrigger("Fade in");
     }
-    
 }

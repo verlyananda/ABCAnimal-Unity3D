@@ -30,7 +30,7 @@ public class GameParent : MonoBehaviour
 	public virtual void OnPrevButtonClick ()
 	{
 		if (alphabetIndex == 1)
-			alphabetIndex = 25;
+			alphabetIndex = 26;
 		else
 			alphabetIndex--;
 		InitAlphabets ();
@@ -38,7 +38,7 @@ public class GameParent : MonoBehaviour
 
 	public virtual void OnNextButtonClick ()
 	{
-		if (alphabetIndex >= 25)
+		if (alphabetIndex >= 26)
 			alphabetIndex = 1;
 		else
 			alphabetIndex++;
