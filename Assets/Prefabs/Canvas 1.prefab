@@ -85,42 +85,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1624865055037954
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224985234895862408}
-  - component: {fileID: 222474424461082734}
-  - component: {fileID: 114673259444291076}
-  - component: {fileID: 95441398907621136}
-  m_Layer: 5
-  m_Name: Moon
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1640310021020576
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224797902127983452}
-  - component: {fileID: 222161586077408180}
-  - component: {fileID: 114726290388018264}
-  - component: {fileID: 114730871648153110}
-  m_Layer: 5
-  m_Name: Back Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1657143189509806
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,6 +130,7 @@ GameObject:
   - component: {fileID: 224266459776976646}
   - component: {fileID: 222894209789902050}
   - component: {fileID: 114344812479772278}
+  - component: {fileID: 114032926354212436}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -203,23 +168,6 @@ GameObject:
   - component: {fileID: 114163718261691536}
   m_Layer: 5
   m_Name: Question Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1909496848981766
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 224342010247296998}
-  - component: {fileID: 222919335539676986}
-  - component: {fileID: 114441221156242974}
-  m_Layer: 5
-  m_Name: Stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -310,7 +258,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -323,23 +271,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!95 &95441398907621136
-Animator:
-  serializedVersion: 3
+--- !u!114 &114032926354212436
+MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1624865055037954}
+  m_GameObject: {fileID: 1732741004292824}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bad0f2df541c841dfbeeaa5e1c1afafe, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.21275805, g: 0.33088237, b: 0.11678201, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!114 &114053857187253204
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -381,7 +326,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a2aec277a892ac64093713d0b49ad5f1, type: 3}
+  m_Sprite: {fileID: 21300004, guid: 051173efe7abf5448898972d875c1490, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -408,7 +353,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 49e1914c81fefd341b3facd964ac93e9, type: 3}
+  m_Sprite: {fileID: 21300048, guid: c90f67542eee69949abe3847f325cfba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -435,7 +380,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e6c078e3a12224409ab6478da9aa6ea, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 051173efe7abf5448898972d875c1490, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -462,7 +407,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ddc9c5c43de16b24fa7026d45707b1e8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 975a434eef042b848a3359ec6628d488, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -482,7 +427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4068966, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -490,7 +435,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 77c840ad9e07a3f41b059e78dcf8dfb7, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -502,7 +447,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Correct !
+  m_Text: congratulations! your answer is correct
 --- !u!114 &114373636412863294
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -516,190 +461,119 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backtoScene: Menu List
   QuestionImage: {fileID: 114163718261691536}
-  introSound: {fileID: 8300000, guid: 8bf5deb988b1470469771ee332428582, type: 3}
-  wrongSound: {fileID: 8300000, guid: 6eb214ab12a409641ba8f48ccc67019f, type: 3}
-  CorrentSound: {fileID: 8300000, guid: 2e58f7a5223f3124ea6074a982ea766d, type: 3}
+  introSound: {fileID: 8300000, guid: 338ad4e2b3df8d5498ca91c477a6f425, type: 3}
+  wrongSound: {fileID: 8300000, guid: 48a9993dcafac8145b2e8815b65f539f, type: 3}
+  CorrentSound: {fileID: 8300000, guid: a8f99350b75a0394395f07fa12deed54, type: 3}
   dropZoneAnswer: {fileID: 11496766, guid: 9a4c91f7c4eae0b46ba420e18eb5e477, type: 2}
   letter: {fileID: 11454924, guid: 535abf7bb6f1ae24894403fd31028140, type: 2}
   DropZonePanel: {fileID: 1159107389143536}
   ShuffledLetterPanel: {fileID: 1202214888077902}
   congratzUI: {fileID: 114562285142572586}
   quizList:
-  - name: Apple
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: 773a70744929fa240bc6f6e61c04a0ce, type: 3}
-    naratorSound: {fileID: 8300000, guid: a06f46a3753b7b849af2cb88ec72d1a7, type: 3}
-  - name: Bike
-    wordCount: 4
-    objectImage: {fileID: 21300000, guid: 4154b2383f082b54fbb3bd5a4c24c09f, type: 3}
-    naratorSound: {fileID: 8300000, guid: 6a03a6f6fdf2edd488fcdd2a83158c13, type: 3}
-  - name: Bird
-    wordCount: 4
-    objectImage: {fileID: 21300000, guid: d044f15ac9a8c624984969d6c4352496, type: 3}
-    naratorSound: {fileID: 8300000, guid: c31c775b28fe6114982847fbebee4314, type: 3}
-  - name: Camel
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: ae8c648092488e74984aca36cf516ead, type: 3}
-    naratorSound: {fileID: 8300000, guid: 541b7a921b2c1a44c84913aaf3f46066, type: 3}
-  - name: Carrot
+  - name: Alligator
+    wordCount: 9
+    objectImage: {fileID: 21300000, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: c63ced83f0450274b94497cb6a640ab7, type: 3}
+  - name: Beaver
     wordCount: 6
-    objectImage: {fileID: 21300000, guid: d45ed987f18cac447862bd98e1c0e3e6, type: 3}
-    naratorSound: {fileID: 8300000, guid: 773bbc098199d5c46a595bede0fc5bc3, type: 3}
-  - name: Cherry
-    wordCount: 7
-    objectImage: {fileID: 21300000, guid: 8e12573ad63fbdf408d6b71a2951096b, type: 3}
-    naratorSound: {fileID: 8300000, guid: 98dead68137471a4291ae02400ed0ccc, type: 3}
-  - name: Donut
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: ed69c8b5a29ec9649a940fafb1634b4c, type: 3}
-    naratorSound: {fileID: 8300000, guid: 997e54d004665a24bb3043e14bca370b, type: 3}
-  - name: Duck
-    wordCount: 4
-    objectImage: {fileID: 21300000, guid: 5e7263e6c8c5c8b49ad6bb20617c7086, type: 3}
-    naratorSound: {fileID: 8300000, guid: 10834281d1cb3eb48b23586adcf62f8f, type: 3}
-  - name: Elephant
-    wordCount: 8
-    objectImage: {fileID: 21300000, guid: bc2d3a65254ea4e4f9523527175b422d, type: 3}
-    naratorSound: {fileID: 8300000, guid: 1c848bec4448ffe44bb8525457834169, type: 3}
-  - name: Flower
-    wordCount: 6
-    objectImage: {fileID: 21300000, guid: 4c84f667342305149916db8846dc347d, type: 3}
-    naratorSound: {fileID: 8300000, guid: 4b70b5b1acedd59459e0f77186fbda42, type: 3}
-  - name: Grapes
-    wordCount: 6
-    objectImage: {fileID: 21300000, guid: 1f7d768244f1eaa429f86d4a89087cef, type: 3}
-    naratorSound: {fileID: 8300000, guid: aa3d3bf952854c54e812ac63643c77b4, type: 3}
-  - name: Hotdog
-    wordCount: 6
-    objectImage: {fileID: 21300000, guid: ac3e83a07d3cfa54f9d278f1761ee4be, type: 3}
-    naratorSound: {fileID: 8300000, guid: ff9cba2aa49753c4790908c2cc2c5b81, type: 3}
-  - name: Iguana
-    wordCount: 6
-    objectImage: {fileID: 21300000, guid: 18917cbd7213f7d48aa0ad8086823829, type: 3}
-    naratorSound: {fileID: 8300000, guid: aaf4a1faa3ab30245a1536851e1d9ede, type: 3}
-  - name: Jar
+    objectImage: {fileID: 21300002, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 503da8d512b5dae458191b54b9f62236, type: 3}
+  - name: Cat
     wordCount: 3
-    objectImage: {fileID: 21300000, guid: 54e7ec29612da36418d29ee29a9120fc, type: 3}
-    naratorSound: {fileID: 8300000, guid: 22afd051ab688ca4aabaf24088675f4d, type: 3}
-  - name: LadyBug
+    objectImage: {fileID: 21300004, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 7da52e4df2d0d824bbdf229d531852f4, type: 3}
+  - name: Donkey
+    wordCount: 5
+    objectImage: {fileID: 21300006, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 22f6636c3b7c53c499a30182fd664852, type: 3}
+  - name: Elephant
     wordCount: 7
-    objectImage: {fileID: 21300000, guid: b7aa6212976d52b46ba5ffb03501cb38, type: 3}
-    naratorSound: {fileID: 8300000, guid: ccc0967f30a197f47b1aa6b6ffee6b1e, type: 3}
-  - name: Laptop
-    wordCount: 6
-    objectImage: {fileID: 21300000, guid: d909e5f72c05a55459946aa9644bdd3f, type: 3}
-    naratorSound: {fileID: 8300000, guid: a9290712612783143b886f914f39638b, type: 3}
-  - name: Lion
-    wordCount: 4
-    objectImage: {fileID: 21300000, guid: 761c0a37f9a801944906c065041c8cde, type: 3}
-    naratorSound: {fileID: 8300000, guid: a519ce8d10d1fc6408f058e4f4062ceb, type: 3}
-  - name: Monkey
-    wordCount: 6
-    objectImage: {fileID: 21300000, guid: 7583d794fb9e9074987385fee37d4c1b, type: 3}
-    naratorSound: {fileID: 8300000, guid: 9084539d2a740d5489334610ea90136a, type: 3}
+    objectImage: {fileID: 21300008, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 7fad99d87ab47a347bb94461f049ae16, type: 3}
+  - name: Frog
+    wordCount: 3
+    objectImage: {fileID: 21300010, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 76574f3dbeb449242a36fa6c78925064, type: 3}
+  - name: Giraffe
+    wordCount: 7
+    objectImage: {fileID: 21300012, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: f9a174b41e562464c9199b1497b72e56, type: 3}
+  - name: Horse
+    wordCount: 5
+    objectImage: {fileID: 21300014, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: c46ad4d1fd138dc4b8ecc1437d38f251, type: 3}
+  - name: Iguana
+    wordCount: 5
+    objectImage: {fileID: 21300016, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: d43816d7c407023489254614cb22a889, type: 3}
+  - name: JellyFish
+    wordCount: 9
+    objectImage: {fileID: 21300018, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 28a04466066098348ad569693c254667, type: 3}
+  - name: Kangaroo
+    wordCount: 8
+    objectImage: {fileID: 21300020, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: b483c2382597ebc4f957934c1ca22ce9, type: 3}
+  - name: 'Lion '
+    wordCount: 5
+    objectImage: {fileID: 21300022, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: c46ad4d1fd138dc4b8ecc1437d38f251, type: 3}
   - name: Mouse
     wordCount: 5
-    objectImage: {fileID: 21300000, guid: 3984bcce4f2d5e8419ef8badce28660a, type: 3}
-    naratorSound: {fileID: 8300000, guid: d58dba8e13d1056489c1b9226cd82c47, type: 3}
-  - name: Orange
+    objectImage: {fileID: 21300024, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: a24fa4a23640e3049845fb36a9ee5882, type: 3}
+  - name: Numbut
     wordCount: 6
-    objectImage: {fileID: 21300000, guid: c2a7b46ef2b226441b90cc5b8be278fc, type: 3}
-    naratorSound: {fileID: 8300000, guid: 52acd39b156169e478e52e435eca30bc, type: 3}
-  - name: Parrot
+    objectImage: {fileID: 21300026, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 3fa47d45231d1814ca98df48edce5fae, type: 3}
+  - name: Octopus
+    wordCount: 7
+    objectImage: {fileID: 21300028, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 90057cd586520f942bd04d4fd69a0ed0, type: 3}
+  - name: Panda
     wordCount: 6
-    objectImage: {fileID: 21300000, guid: 0a15dde979eda864b84d75ac9e2fa6ba, type: 3}
-    naratorSound: {fileID: 8300000, guid: 8c08f43fe38795a4fb863dd3b2efe236, type: 3}
-  - name: Phone
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: 4413552292cdcfb4084406f2d13077b7, type: 3}
-    naratorSound: {fileID: 8300000, guid: 62cc643ca01d2464d9629b4ed5bcf719, type: 3}
-  - name: Pizza
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: c0b9a23e8728ae647b53141dfb9ad7af, type: 3}
-    naratorSound: {fileID: 8300000, guid: fd1f39f4462f8904da5d4e5b32c08044, type: 3}
-  - name: Plane
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: 8db0d58bc0ac85f4e80b4ac2a24ebb3c, type: 3}
-    naratorSound: {fileID: 8300000, guid: 484dbae3ceebc6845832f3496e700164, type: 3}
-  - name: Queen
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: bd653b35193cbe145b23e44a66cf56fb, type: 3}
-    naratorSound: {fileID: 8300000, guid: 8f04cb494d7f4fc458b7203b38ffaac6, type: 3}
-  - name: Radio
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: 960c5636a4030ee4bb17a2716724150b, type: 3}
-    naratorSound: {fileID: 8300000, guid: 6d7c5d146acabe9439780bbc798751f3, type: 3}
-  - name: Shark
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: 07fb8ab7293883b4b866f8a6cd67be80, type: 3}
-    naratorSound: {fileID: 8300000, guid: 16f6f8295c271314a88b4f3dd2e22838, type: 3}
+    objectImage: {fileID: 21300030, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 5699d03f392ac074c95a360dad100e20, type: 3}
+  - name: Quetzal
+    wordCount: 7
+    objectImage: {fileID: 21300032, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 551fe6fa927ac2142823b6fdb8917aba, type: 3}
+  - name: Raccoon
+    wordCount: 7
+    objectImage: {fileID: 21300034, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: e8212255b0ed8b94684824ee7fec6145, type: 3}
   - name: Sheep
     wordCount: 5
-    objectImage: {fileID: 21300000, guid: 76f4f50f7a33d954e9e54e1b017cb798, type: 3}
-    naratorSound: {fileID: 8300000, guid: 6ef101f4a1949d643b127e8246aa968e, type: 3}
-  - name: Snake
+    objectImage: {fileID: 21300036, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: ab3af4cf345d6014b82a20c78ff40d6a, type: 3}
+  - name: Turtle
+    wordCount: 6
+    objectImage: {fileID: 21300038, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 691f30fa97e9dcf4b9572a3d43d665bd, type: 3}
+  - name: Unicorn
+    wordCount: 7
+    objectImage: {fileID: 21300040, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 083b7ccfcb11b314fba0b1c0d8159d37, type: 3}
+  - name: Viper
     wordCount: 5
-    objectImage: {fileID: 21300000, guid: bd9a33fa21edefe4a8382d7aadffe135, type: 3}
-    naratorSound: {fileID: 8300000, guid: 475120daa0403004694b0ed553740ed6, type: 3}
-  - name: Table
+    objectImage: {fileID: 21300042, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: b37218605ceb84b4aa7330e3f5801843, type: 3}
+  - name: Whale
     wordCount: 5
-    objectImage: {fileID: 21300000, guid: a56be1ce7ab236f449aac949ab11c45c, type: 3}
-    naratorSound: {fileID: 8300000, guid: dc306550b5b71a245a4580e7f66b0b6e, type: 3}
-  - name: Truck
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: 367c6c330a69da140ac2522a88b8ca61, type: 3}
-    naratorSound: {fileID: 8300000, guid: 52272ef40f69036458c90bcb21529549, type: 3}
-  - name: Umbrella
+    objectImage: {fileID: 21300044, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 9851986dea1814945b9d02ba7c8b1247, type: 3}
+  - name: XrayFish
     wordCount: 8
-    objectImage: {fileID: 21300000, guid: 9ff71516941549b4c850404d71be1a15, type: 3}
-    naratorSound: {fileID: 8300000, guid: 22f905220668d134c9aaf48d5acec7c5, type: 3}
-  - name: Vase
-    wordCount: 4
-    objectImage: {fileID: 21300000, guid: 4e11eee3a3410bb4bbdac17f1c1d4f72, type: 3}
-    naratorSound: {fileID: 8300000, guid: 5cee3b4d9612a464eaa2a238fa69dbd3, type: 3}
-  - name: Watch
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: 4b1f569d39add294d991ad898d5fc00e, type: 3}
-    naratorSound: {fileID: 8300000, guid: aad623bafebfe7c43832326ff5164fcd, type: 3}
-  - name: Yacht
-    wordCount: 5
-    objectImage: {fileID: 21300000, guid: bd2f75ade5490dc4f94f37da053eb72d, type: 3}
-    naratorSound: {fileID: 8300000, guid: f7d3d7a14abde3b4a9b53a2431dcbc3f, type: 3}
-  - name: Yarn
-    wordCount: 4
-    objectImage: {fileID: 21300000, guid: e39d98cb673ed6c46ac60fafebbb6628, type: 3}
-    naratorSound: {fileID: 8300000, guid: 900cb5cf2577bae4190c4e3d8f056672, type: 3}
+    objectImage: {fileID: 21300046, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: ff820bfbac059744586bcc5192a70a2a, type: 3}
+  - name: Yak
+    wordCount: 3
+    objectImage: {fileID: 21300048, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: 7aa6938e45a6a2b49b4616d57c79e891, type: 3}
   - name: Zebra
     wordCount: 5
-    objectImage: {fileID: 21300000, guid: a884fe1880fca5e4bbc76153a55e0d6a, type: 3}
-    naratorSound: {fileID: 8300000, guid: 74d5cf90d390d1f49b0bf8ffca7292e1, type: 3}
---- !u!114 &114441221156242974
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1909496848981766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: acccdfc33bf40944c80d71172b2112b8, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
+    objectImage: {fileID: 21300050, guid: c90f67542eee69949abe3847f325cfba, type: 3}
+    naratorSound: {fileID: 8300000, guid: a08e63730fd17314b92fdfb00374cc6f, type: 3}
 --- !u!114 &114464160869226868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -719,7 +593,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: d6c5f33bc1f28584eacf0553c9a50aae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0636c295c11ee604380478bab1a19523, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -828,7 +702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1f36d48bdff7e04788b4d7acb4d232e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backButton: {fileID: 114730871648153110}
+  backButton: {fileID: 0}
 --- !u!114 &114623517493213556
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -856,33 +730,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114673259444291076
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1624865055037954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 21d3b80c93818e74c96bf27d27d6d426, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
 --- !u!114 &114683824761607234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -899,85 +746,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &114726290388018264
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1640310021020576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 812f3150f8a317f4b8f77d45bc302763, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!114 &114730871648153110
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1640310021020576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 114726290388018264}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114562285142572586}
-        m_MethodName: OnBackButtonClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114803063342256060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1117,24 +885,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1780188274192658}
---- !u!222 &222161586077408180
-CanvasRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1640310021020576}
 --- !u!222 &222249059678334288
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1657143189509806}
---- !u!222 &222474424461082734
-CanvasRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1624865055037954}
 --- !u!222 &222478463579302662
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -1177,12 +933,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1732741004292824}
---- !u!222 &222919335539676986
-CanvasRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1909496848981766}
 --- !u!223 &223004670206962038
 Canvas:
   m_ObjectHideFlags: 1
@@ -1214,12 +964,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224639871036559424}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.545, y: 0.13737355}
-  m_AnchorMax: {x: 0.8674476, y: 0.32237357}
-  m_AnchoredPosition: {x: -0.49700165, y: 0.099998474}
-  m_SizeDelta: {x: -0.099998474, y: -0.9000015}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 135, y: -160}
+  m_SizeDelta: {x: 130, y: 107}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224207939527739968
 RectTransform:
@@ -1250,30 +1000,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224639871036559424}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.25319406, y: 0.384}
-  m_AnchorMax: {x: 0.7496119, y: 0.62687945}
-  m_AnchoredPosition: {x: -0.5, y: 0.05001831}
-  m_SizeDelta: {x: 0.1000061, y: 0.80000305}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224342010247296998
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1909496848981766}
-  m_LocalRotation: {x: 0, y: 0, z: 0.22639723, w: 0.9740351}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 224639871036559424}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.06241787, y: 0.70675886}
-  m_AnchorMax: {x: 0.23361194, y: 0.91700006}
-  m_AnchoredPosition: {x: -0.5, y: -0.028999329}
-  m_SizeDelta: {x: -1, y: 1.6269989}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -10, y: -84}
+  m_SizeDelta: {x: 252, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224491409954842978
 RectTransform:
@@ -1286,7 +1018,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 224665677826460644}
-  - {fileID: 224985234895862408}
   - {fileID: 224707434590749844}
   - {fileID: 224639871036559424}
   m_Father: {fileID: 0}
@@ -1308,12 +1039,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224639871036559424}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13558213, y: 0.14825287}
-  m_AnchorMax: {x: 0.45800003, y: 0.32237357}
-  m_AnchoredPosition: {x: 0.80000305, y: -0.40000153}
-  m_SizeDelta: {x: -0.099998474, y: 0.099998474}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -145, y: -160}
+  m_SizeDelta: {x: 128, y: 107}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224639871036559424
 RectTransform:
@@ -1325,18 +1056,16 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 224342010247296998}
-  - {fileID: 224797902127983452}
   - {fileID: 224266459776976646}
   - {fileID: 224557416136635642}
   - {fileID: 224116081950043402}
   m_Father: {fileID: 224491409954842978}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.25998765, y: 0.2541791}
-  m_AnchorMax: {x: 0.7054686, y: 0.8672845}
-  m_AnchoredPosition: {x: 0.0000019073486, y: -0.000015258789}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -7, y: -17}
+  m_SizeDelta: {x: 445, y: 474}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224665677826460644
 RectTransform:
@@ -1370,30 +1099,12 @@ RectTransform:
   - {fileID: 224890186145382856}
   - {fileID: 224207939527739968}
   m_Father: {fileID: 224491409954842978}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224797902127983452
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1640310021020576}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 224639871036559424}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.744, y: 0.70675886}
-  m_AnchorMax: {x: 0.8674476, y: 0.859253}
-  m_AnchoredPosition: {x: 0, y: -0.40000153}
-  m_SizeDelta: {x: -1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224856411607946442
 RectTransform:
@@ -1431,24 +1142,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -13.300016}
   m_SizeDelta: {x: 882, y: 148}
   m_Pivot: {x: 0.5, y: 0.49999997}
---- !u!224 &224985234895862408
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1624865055037954}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 224491409954842978}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -63, y: -74}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 1, y: 1}
 --- !u!225 &225653951647921372
 CanvasGroup:
   m_ObjectHideFlags: 1
@@ -1456,7 +1149,7 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1260345329873886}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
