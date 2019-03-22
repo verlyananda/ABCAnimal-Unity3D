@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/Menu.unity
+    guid: eac6b95216819d14a9b834e734848b05
+  - enabled: 1
+    path: Assets/Scene/Animal.unity
+    guid: f7ad4de58b0a1524a889a28e54ed491b
+  - enabled: 1
+    path: Assets/Scene/QuizAnimal.unity
+    guid: d6aa9570084ce5441914fb11fec8fdc9
+  - enabled: 1
+    path: Assets/Scene/QuizLetter.unity
+    guid: 13f3b1daf01d37249b334dbce0a6aeb4

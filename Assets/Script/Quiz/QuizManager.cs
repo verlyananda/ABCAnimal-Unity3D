@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
-
+using GoogleMobileAds.Api;
 public class QuizManager : GameParent
 {
 	public Image QuestionImage;
@@ -18,9 +18,79 @@ public class QuizManager : GameParent
 	List<LetterTile> answerShuffleList = new List<LetterTile> ();
 
 	public static InputState state;
+//ADMOB INSTERSTITIAL
+	
+    bool hasShownAdOneTime;
+
+    // Use this for initialization
+  
+    public void showInterstitialAd()
+    {
+        //Show Ad
+        if (interstitial.IsLoaded())
+        {
+            interstitial.Show();
+
+            //Stop Sound
+            //
+
+            Debug.Log("SHOW AD XXX");
+        }
+
+    }
+     InterstitialAd interstitial;
+    private void RequestInterstitialAds()
+    {
+        string adID = "ca-app-pub-1214654916114921/2518703007"; // Your ID Interstitital Admob
+
+#if UNITY_ANDROID
+        string adUnitId = adID;
+#elif UNITY_IOS
+        string adUnitId = adID;
+#else
+        string adUnitId = adID;
+#endif
+
+        // Initialize an InterstitialAd.
+        interstitial = new InterstitialAd(adUnitId);
+
+        //***Test***
+        AdRequest request = new AdRequest.Builder()
+       .AddTestDevice(AdRequest.TestDeviceSimulator)       // Simulator.
+       .AddTestDevice("")  // My test device.
+       .Build();
+
+        //***Production***
+        //AdRequest request = new AdRequest.Builder().Build();
+
+        //Register Ad Close Event
+        interstitial.OnAdClosed += Interstitial_OnAdClosed;
+
+        // Load the interstitial with the request.
+        interstitial.LoadAd(request);
+
+        Debug.Log("Load Ads!");
+
+    }
+
+    //Ad Close Event
+    private void Interstitial_OnAdClosed(object sender, System.EventArgs e)
+    {
+        //Resume Play Sound
+
+    }
+
+	//ADMOB BANNER INTERSTITIAL END
+
+
+
+
+
+
 
 	void Start ()
 	{
+		 RequestInterstitialAds();
 		source = GetComponent<AudioSource> ();
 		source.PlayOneShot (introSound);
 		InitAlphabets ();
@@ -111,6 +181,8 @@ public class QuizManager : GameParent
 		if (ShuffledLetterPanel.transform.childCount == 0 && state == InputState.isFree) {
 			PlaySound (true);
 			congratzUI.OnActivatingUI (true);
+			Invoke("showInterstitialAd", 3.0f); //Show Interstitial
+			Debug.Log("Interstitial Shows !");
 			dropallChildren ();
 		}
 	}

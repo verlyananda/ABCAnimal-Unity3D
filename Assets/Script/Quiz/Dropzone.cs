@@ -7,6 +7,8 @@ public class Dropzone : MonoBehaviour, IDropHandler
 
     QuizManager parent;
 
+
+   
     public void OnDrop(PointerEventData eventData)
     {
         GameObject dragObj = eventData.pointerDrag;
